@@ -1,0 +1,94 @@
+.container_meniu{
+    text-align: center;
+    width: 100%;
+    background:linear-gradient(
+         rgb(10, 10, 175),
+         rgba(7, 7, 248, 0.776));
+    height: 140px;
+    border:7px solid rgba(0, 0, 139, 0.484);
+    box-shadow: 16px 45px 48px -13px rgba(0,0,0,0.75);
+}
+
+.container_meniu .meniu{
+    display:flex;
+    position: relative;
+}
+
+li{
+        font-size: 42px;
+        list-style-type: none;
+        font-family:cursive;
+        padding:10px;
+}
+
+li a:hover{
+    color:rgb(79, 77, 208);
+}
+
+.container_meniu .meniu li a{
+    color:aliceblue;
+    text-decoration: none;
+    transition: color 1 ease;
+}
+
+.container_meniu .meniu li{
+    flex: 1;
+}
+
+.container_meniu .meniu li:first-child a{
+    color:aliceblue;
+}
+
+.container_meniu .meniu .linie{
+    position:absolute;
+    height:5px;
+    width: 20%;
+    background: aliceblue;
+    left: 0;
+    bottom: 0;
+    transition: all 0.3s ease;
+}
+
+.container_meniu .meniu li:nth-child(2):hover ~ .linie{
+    left: 20%;
+}
+
+.container_meniu .meniu li:nth-child(3):hover ~ .linie{
+    left: 40%;
+}
+.container_meniu .meniu li:nth-child(4):hover ~ .linie{
+    left: 60%;
+}
+
+.container_meniu .meniu li:nth-child(5):hover ~ .linie{
+    left: 80%;
+}
+
+.jumbotron{
+    height: 1200px;
+    background: linear-gradient(
+        rgb(9, 9, 132,0),
+        rgba(7, 7, 248, 0.776)
+        ),
+        url(https://source.unsplash.com/1600x1050/?japonia);
+}
+
+.jumbotron h1{
+    font-weight:100;
+    text-align:center;
+    color:aliceblue;
+    font-family: cursive;
+}
+
+.jumbotron h2{
+    font-weight:90;
+    text-align:center;
+    color:aliceblue;
+    font-family: cursive;
+}
+
+.jumbotron p{
+    text-align:center;
+    color:aliceblue;
+    font-family:cursive;
+}
