@@ -1,0 +1,19 @@
+{
+    "Istorie" :[
+        {
+            "ani": 1912,
+            "exemple":"acestea sunt cateva exemple",
+            "nume":"numele"
+        },
+        {
+            "ani": 1926,
+            "exemple":"acestea sunt cateva exemple",
+            "nume":"numele"
+        },
+        {
+            "ani":1945,
+            "exemple":"acestea sunt cateva exemple",
+            "nume":"numele"
+        }
+    ]
+}
